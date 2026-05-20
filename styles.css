@@ -377,11 +377,11 @@ h1 {
 }
 
 .shots {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .premium-shots {
-  grid-template-columns: 1.4fr repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: start;
 }
 
@@ -394,15 +394,7 @@ h1 {
 }
 
 .shot-feature {
-  grid-row: span 2;
-}
-
-.shot-crop-heavy img {
-  object-position: center 22%;
-}
-
-.shot-crop-light img {
-  object-position: center 8%;
+  grid-column: span 2;
 }
 
 .shot-badge {
@@ -425,19 +417,20 @@ h1 {
 }
 
 .shot-copy {
-  padding: 8px 10px 10px;
+  padding: 10px 12px 12px;
 }
 
 .shot img {
-  aspect-ratio: 10 / 11;
-  height: 210px;
-  object-fit: cover;
+  display: block;
   width: 100%;
+  height: auto;
+  object-fit: contain;
+  background: linear-gradient(180deg, #f7fbfb, #eaf5f3);
 }
 
 .shot-feature img {
-  aspect-ratio: 10 / 15;
-  height: 430px;
+  width: 100%;
+  height: auto;
 }
 
 .legal-grid {
@@ -550,7 +543,7 @@ h1 {
   }
 
   .shot-feature {
-    grid-row: auto;
+    grid-column: span 2;
   }
 
   .hero-list {
@@ -613,5 +606,9 @@ h1 {
 
   .premium-shots {
     grid-template-columns: 1fr;
+  }
+
+  .shot-feature {
+    grid-column: auto;
   }
 }
