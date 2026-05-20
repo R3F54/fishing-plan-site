@@ -18,7 +18,7 @@ const translations = {
     nav_privacy: "Privacy",
     nav_terms: "Terms",
     nav_delete: "Delete Account",
-    footer_support: "fishingplanai.@gmail.com",
+    footer_support: "fishingplanai@gmail.com",
     contact_title: "Contact",
     coming_soon: "Coming Soon",
     store_terms_cta: "Terms of Use",
@@ -52,7 +52,7 @@ const translations = {
     review_1_body: "Privacy policy, terms of use and account deletion instructions are each available on their own direct URL.",
     review_2_title: "Support identity",
     review_2_body:
-      "Public contact email: <strong>fishingplanai.@gmail.com</strong>.",
+      "Public contact email: <strong>fishingplanai@gmail.com</strong>.",
     screens_title: "Selected app screens",
     screens_intro: "These visuals are taken from the current product work so the site reflects the actual in-app experience.",
     shot_1_title: "Guided start flow",
@@ -108,7 +108,7 @@ const translations = {
     privacy_section_8_title: "8. Third-Party Services",
     privacy_section_8_body:
       "The app may integrate with Supabase, Google AdMob, Google Sign-In, Apple Sign-In and weather-related data providers. Payments, where applicable, are handled by the App Store or Google Play.",
-    privacy_contact_body: "For privacy questions or data requests, contact <strong>fishingplanai.@gmail.com</strong>.",
+    privacy_contact_body: "For privacy questions or data requests, contact <strong>fishingplanai@gmail.com</strong>.",
     terms_eyebrow: "Legal",
     terms_title: "Terms of Use",
     terms_lead:
@@ -135,7 +135,7 @@ const translations = {
     terms_section_7_title: "7. Changes to Terms",
     terms_section_7_body:
       "These terms may be updated from time to time. Continued use of the app after an update may be treated as acceptance of the revised terms.",
-    terms_contact_body: "For questions about these terms, contact <strong>fishingplanai.@gmail.com</strong>.",
+    terms_contact_body: "For questions about these terms, contact <strong>fishingplanai@gmail.com</strong>.",
     delete_eyebrow: "Support",
     delete_title: "Delete Account",
     delete_lead:
@@ -154,9 +154,9 @@ const translations = {
       "If a user is operating in guest mode, deletion may only clear local data stored on that device because no full signed account identity may be attached.",
     delete_section_4_title: "Alternative support request",
     delete_section_4_body:
-      "If a user cannot access the app, they can request deletion support by emailing <strong>fishingplanai.@gmail.com</strong> from the email address associated with the account.",
+      "If a user cannot access the app, they can request deletion support by emailing <strong>fishingplanai@gmail.com</strong> from the email address associated with the account.",
     delete_contact_title: "Support Contact",
-    delete_contact_body: "For account deletion help, contact <strong>fishingplanai.@gmail.com</strong>."
+    delete_contact_body: "For account deletion help, contact <strong>fishingplanai@gmail.com</strong>."
   },
   tr: {
     meta_title_home: "Fishing Plan | Yapay Zeka Destekli Balik Avi Plani",
@@ -177,7 +177,7 @@ const translations = {
     nav_privacy: "Gizlilik",
     nav_terms: "Kosullar",
     nav_delete: "Hesap Silme",
-    footer_support: "fishingplanai.@gmail.com",
+    footer_support: "fishingplanai@gmail.com",
     contact_title: "Iletisim",
     coming_soon: "Yakinda",
     store_terms_cta: "Kullanim Kosullari",
@@ -211,7 +211,7 @@ const translations = {
     review_1_body: "Gizlilik politikasi, kullanim kosullari ve hesap silme talimatlari ayri URL'lerde sunulur.",
     review_2_title: "Destek kimligi",
     review_2_body:
-      "Acik iletisim e-postasi: <strong>fishingplanai.@gmail.com</strong>.",
+      "Acik iletisim e-postasi: <strong>fishingplanai@gmail.com</strong>.",
     screens_title: "Secili uygulama ekranlari",
     screens_intro: "Bu gorseller mevcut urun calismasindan alinmistir; site gercek uygulama deneyimini yansitir.",
     shot_1_title: "Yonlendirmeli baslangic akisi",
@@ -267,7 +267,7 @@ const translations = {
     privacy_section_8_title: "8. Ucuncu Taraf Hizmetler",
     privacy_section_8_body:
       "Uygulama Supabase, Google AdMob, Google Sign-In, Apple Sign-In ve hava durumu veri saglayicilariyla entegre olabilir. Uygun oldugunda odemeler App Store veya Google Play uzerinden islenir.",
-    privacy_contact_body: "Gizlilik sorulari veya veri talepleri icin <strong>fishingplanai.@gmail.com</strong> adresiyle iletisime gecin.",
+    privacy_contact_body: "Gizlilik sorulari veya veri talepleri icin <strong>fishingplanai@gmail.com</strong> adresiyle iletisime gecin.",
     terms_eyebrow: "Yasal",
     terms_title: "Kullanim Kosullari",
     terms_lead:
@@ -294,7 +294,7 @@ const translations = {
     terms_section_7_title: "7. Kosullardaki Degisiklikler",
     terms_section_7_body:
       "Bu kosullar zaman zaman guncellenebilir. Guncellemeden sonra uygulamayi kullanmaya devam etmek, duzeltilmis kosullarin kabul edildigi anlamina gelebilir.",
-    terms_contact_body: "Bu kosullarla ilgili sorular icin <strong>fishingplanai.@gmail.com</strong> adresiyle iletisime gecin.",
+    terms_contact_body: "Bu kosullarla ilgili sorular icin <strong>fishingplanai@gmail.com</strong> adresiyle iletisime gecin.",
     delete_eyebrow: "Destek",
     delete_title: "Hesap Silme",
     delete_lead:
@@ -313,9 +313,9 @@ const translations = {
       "Kullanici misafir modundaysa, tam bir hesap kimligi bagli olmayabilecegi icin silme islemi sadece o cihazdaki yerel verileri temizleyebilir.",
     delete_section_4_title: "Alternatif destek talebi",
     delete_section_4_body:
-      "Kullanici uygulamaya erisemiyorsa, hesaba bagli e-posta adresinden <strong>fishingplanai.@gmail.com</strong> adresine yazarak silme destegi talep edebilir.",
+      "Kullanici uygulamaya erisemiyorsa, hesaba bagli e-posta adresinden <strong>fishingplanai@gmail.com</strong> adresine yazarak silme destegi talep edebilir.",
     delete_contact_title: "Destek Iletisimi",
-    delete_contact_body: "Hesap silme yardimi icin <strong>fishingplanai.@gmail.com</strong> ile iletisime gecin."
+    delete_contact_body: "Hesap silme yardimi icin <strong>fishingplanai@gmail.com</strong> ile iletisime gecin."
   }
 };
 
