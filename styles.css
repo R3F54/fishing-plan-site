@@ -65,7 +65,7 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 18px 0;
+  padding: 14px 0;
 }
 
 .brand {
@@ -136,13 +136,13 @@ img {
 }
 
 .hero {
-  padding: 52px 0 34px;
+  padding: 28px 0 18px;
 }
 
 .hero-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.9fr;
-  gap: 28px;
+  gap: 20px;
   align-items: center;
 }
 
@@ -159,33 +159,33 @@ img {
 
 .hero-copy {
   border-radius: var(--radius-xl);
-  padding: 38px;
+  padding: 28px;
 }
 
 .eyebrow {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 14px;
+  padding: 7px 12px;
   border-radius: 999px;
   background: var(--brand-soft);
   color: var(--brand-deep);
   font-weight: 700;
-  font-size: 0.92rem;
+  font-size: 0.84rem;
 }
 
 h1 {
-  margin: 18px 0 16px;
-  font-size: clamp(2.4rem, 5vw, 4.8rem);
-  line-height: 0.95;
+  margin: 14px 0 12px;
+  font-size: clamp(2rem, 4vw, 3.7rem);
+  line-height: 0.98;
   letter-spacing: -0.04em;
 }
 
 .lead {
   margin: 0;
   color: var(--muted);
-  font-size: 1.08rem;
-  line-height: 1.7;
+  font-size: 0.98rem;
+  line-height: 1.62;
   max-width: 58ch;
 }
 
@@ -193,7 +193,7 @@ h1 {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
-  margin: 28px 0 18px;
+  margin: 20px 0 14px;
 }
 
 .button,
@@ -204,9 +204,10 @@ h1 {
   justify-content: center;
   gap: 10px;
   border-radius: 999px;
-  min-height: 50px;
-  padding: 0 22px;
+  min-height: 44px;
+  padding: 0 18px;
   font-weight: 800;
+  font-size: 0.95rem;
 }
 
 .button {
@@ -224,12 +225,12 @@ h1 {
 .hero-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-  margin-top: 30px;
+  gap: 12px;
+  margin-top: 18px;
 }
 
 .hero-list div {
-  padding: 16px;
+  padding: 14px;
   border-radius: var(--radius-md);
   background: rgba(255, 255, 255, 0.76);
   border: 1px solid rgba(16, 52, 58, 0.08);
@@ -237,33 +238,33 @@ h1 {
 
 .hero-list strong {
   display: block;
-  font-size: 1.1rem;
-  margin-bottom: 6px;
+  font-size: 1rem;
+  margin-bottom: 4px;
 }
 
 .hero-list span {
   color: var(--muted);
-  font-size: 0.94rem;
-  line-height: 1.5;
+  font-size: 0.88rem;
+  line-height: 1.45;
 }
 
 .hero-visual {
   border-radius: 36px;
-  padding: 22px;
+  padding: 16px;
 }
 
 .visual-stack {
   position: relative;
-  min-height: 620px;
+  min-height: 500px;
 }
 
 .visual-stack .app-frame {
   position: absolute;
-  width: 52%;
-  border-radius: 28px;
+  width: 48%;
+  border-radius: 24px;
   overflow: hidden;
-  border: 10px solid #0e2427;
-  box-shadow: 0 22px 36px rgba(9, 36, 41, 0.26);
+  border: 8px solid #0e2427;
+  box-shadow: 0 18px 28px rgba(9, 36, 41, 0.22);
 }
 
 .visual-stack .app-frame:first-child {
@@ -274,12 +275,12 @@ h1 {
 
 .visual-stack .app-frame:last-child {
   right: 0;
-  top: 150px;
+  top: 115px;
   transform: rotate(7deg);
 }
 
 .section {
-  padding: 34px 0;
+  padding: 22px 0;
 }
 
 .section-title {
@@ -287,12 +288,12 @@ h1 {
   align-items: end;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 
 .section-title h2 {
   margin: 0;
-  font-size: clamp(1.8rem, 3vw, 3rem);
+  font-size: clamp(1.5rem, 2.6vw, 2.4rem);
   letter-spacing: -0.03em;
 }
 
@@ -300,7 +301,8 @@ h1 {
   margin: 0;
   max-width: 52ch;
   color: var(--muted);
-  line-height: 1.7;
+  line-height: 1.58;
+  font-size: 0.95rem;
 }
 
 .grid-3,
@@ -308,7 +310,7 @@ h1 {
 .legal-grid,
 .shots {
   display: grid;
-  gap: 18px;
+  gap: 14px;
 }
 
 .grid-3 {
@@ -322,14 +324,14 @@ h1 {
 .card,
 .legal-card {
   border-radius: var(--radius-lg);
-  padding: 24px;
+  padding: 18px;
 }
 
 .card h3,
 .legal-card h3,
 .shot h3 {
-  margin: 0 0 10px;
-  font-size: 1.18rem;
+  margin: 0 0 8px;
+  font-size: 1.02rem;
 }
 
 .card p,
@@ -337,17 +339,18 @@ h1 {
 .muted {
   margin: 0;
   color: var(--muted);
-  line-height: 1.72;
+  line-height: 1.58;
+  font-size: 0.93rem;
 }
 
 .store-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
+  gap: 14px;
 }
 
 .store-card {
-  padding: 24px;
+  padding: 18px;
   border-radius: var(--radius-lg);
   background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(215,241,238,0.72));
   border: 1px solid rgba(16, 52, 58, 0.08);
@@ -356,9 +359,9 @@ h1 {
 
 .store-row {
   display: flex;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-top: 18px;
+  margin-top: 14px;
 }
 
 .store-pill {
@@ -382,11 +385,11 @@ h1 {
 }
 
 .shot-copy {
-  padding: 18px 18px 22px;
+  padding: 12px 14px 16px;
 }
 
 .shot img {
-  aspect-ratio: 10 / 16;
+  aspect-ratio: 10 / 13;
   object-fit: cover;
   width: 100%;
 }
@@ -400,7 +403,7 @@ h1 {
 }
 
 .page-hero {
-  padding: 56px 0 24px;
+  padding: 32px 0 14px;
 }
 
 .page-hero .shell {
@@ -408,7 +411,7 @@ h1 {
 }
 
 .page-hero-box {
-  padding: 32px;
+  padding: 24px;
   border-radius: var(--radius-xl);
   background: var(--surface);
   border: 1px solid rgba(255, 255, 255, 0.75);
@@ -416,17 +419,17 @@ h1 {
 }
 
 .page-hero h1 {
-  font-size: clamp(2rem, 4vw, 3.4rem);
-  margin: 10px 0 12px;
+  font-size: clamp(1.7rem, 3.5vw, 2.7rem);
+  margin: 8px 0 10px;
 }
 
 .page-meta {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.88rem;
 }
 
 .legal-page {
-  padding: 8px 0 56px;
+  padding: 6px 0 34px;
 }
 
 .legal-page .shell {
@@ -435,11 +438,11 @@ h1 {
 
 .legal-stack {
   display: grid;
-  gap: 16px;
+  gap: 12px;
 }
 
 .legal-stack section {
-  padding: 24px 26px;
+  padding: 18px 20px;
   border-radius: var(--radius-lg);
   background: var(--surface-strong);
   border: 1px solid rgba(16, 52, 58, 0.09);
@@ -447,14 +450,15 @@ h1 {
 }
 
 .legal-stack h2 {
-  margin: 0 0 10px;
-  font-size: 1.25rem;
+  margin: 0 0 8px;
+  font-size: 1.08rem;
 }
 
 .legal-stack p,
 .legal-stack li {
   color: var(--muted);
-  line-height: 1.8;
+  line-height: 1.62;
+  font-size: 0.94rem;
 }
 
 .legal-stack ul,
@@ -464,7 +468,7 @@ h1 {
 }
 
 .callout {
-  padding: 20px;
+  padding: 16px;
   border-radius: var(--radius-md);
   background: var(--brand-soft);
   color: var(--brand-deep);
