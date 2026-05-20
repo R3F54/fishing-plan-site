@@ -3,39 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Delete Account | Fishing Plan</title>
+    <title data-i18n-title="meta_title_delete">Delete Account | Fishing Plan</title>
     <meta
       name="description"
       content="Account deletion instructions for Fishing Plan."
+      data-i18n="meta_description_delete"
+      data-i18n-attr="content"
     />
     <link rel="canonical" href="https://fishing-plan.com/delete-account.html" />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
   </head>
-  <body>
+  <body data-page="delete">
     <header class="site-header">
       <div class="shell">
         <a class="brand" href="index.html">
           <img src="assets/app-icon.png" alt="Fishing Plan icon" />
           <span>Fishing Plan</span>
         </a>
-        <nav class="nav">
-          <a href="index.html">Home</a>
-          <a href="privacy-policy.html">Privacy</a>
-          <a href="terms-of-use.html">Terms</a>
-        </nav>
+        <div class="nav-actions">
+          <nav class="nav">
+            <a href="index.html" data-i18n="nav_home">Home</a>
+            <a href="privacy-policy.html" data-i18n="nav_privacy">Privacy</a>
+            <a href="terms-of-use.html" data-i18n="nav_terms">Terms</a>
+          </nav>
+          <div class="lang-switch" aria-label="Language switcher">
+            <button type="button" class="lang-button" data-lang="tr">TR</button>
+            <button type="button" class="lang-button" data-lang="en">EN</button>
+          </div>
+        </div>
       </div>
     </header>
 
     <section class="page-hero">
       <div class="shell">
         <div class="page-hero-box">
-          <span class="eyebrow">Support</span>
-          <h1>Delete Account</h1>
-          <p class="lead">
+          <span class="eyebrow" data-i18n="delete_eyebrow">Support</span>
+          <h1 data-i18n="delete_title">Delete Account</h1>
+          <p class="lead" data-i18n="delete_lead">
             This page explains the public account deletion path for Fishing Plan.
             It is intended for app review teams and users who want a clear support route.
           </p>
-          <p class="page-meta">Last updated: May 20, 2026</p>
+          <p class="page-meta" data-i18n="delete_updated_date">Last updated: May 20, 2026</p>
         </div>
       </div>
     </section>
@@ -44,18 +53,18 @@
       <div class="shell">
         <div class="legal-stack">
           <section>
-            <h2>In-app deletion path</h2>
+            <h2 data-i18n="delete_section_1_title">In-app deletion path</h2>
             <ol>
-              <li>Open Fishing Plan.</li>
-              <li>Open the side menu from the main app experience.</li>
-              <li>Select <strong>Delete Account</strong>.</li>
-              <li>Confirm the deletion request inside the app.</li>
+              <li data-i18n="delete_step_1">Open Fishing Plan.</li>
+              <li data-i18n="delete_step_2">Open the side menu from the main app experience.</li>
+              <li data-i18n-html="true" data-i18n="delete_step_3">Select <strong>Delete Account</strong>.</li>
+              <li data-i18n="delete_step_4">Confirm the deletion request inside the app.</li>
             </ol>
           </section>
 
           <section>
-            <h2>What the deletion covers</h2>
-            <p>
+            <h2 data-i18n="delete_section_2_title">What the deletion covers</h2>
+            <p data-i18n="delete_section_2_body">
               The app is designed so that account deletion removes the user
               account connection and user-specific stored data associated with
               that account, including planning data, saved spots, catch logs and
@@ -64,8 +73,8 @@
           </section>
 
           <section>
-            <h2>Guest mode</h2>
-            <p>
+            <h2 data-i18n="delete_section_3_title">Guest mode</h2>
+            <p data-i18n="delete_section_3_body">
               If a user is operating in guest mode, deletion may only clear local
               data stored on that device because no full signed account identity
               may be attached.
@@ -73,8 +82,8 @@
           </section>
 
           <section>
-            <h2>Alternative support request</h2>
-            <p>
+            <h2 data-i18n="delete_section_4_title">Alternative support request</h2>
+            <p data-i18n-html="true" data-i18n="delete_section_4_body">
               If a user cannot access the app, they can request deletion support
               by emailing <strong>support@fishingplan.app</strong> from the email
               address associated with the account.
@@ -82,8 +91,10 @@
           </section>
 
           <section class="callout">
-            <h2>Support Contact</h2>
-            <p>For account deletion help, contact <strong>support@fishingplan.app</strong>.</p>
+            <h2 data-i18n="delete_contact_title">Support Contact</h2>
+            <p data-i18n-html="true" data-i18n="delete_contact_body">
+              For account deletion help, contact <strong>support@fishingplan.app</strong>.
+            </p>
           </section>
         </div>
       </div>
@@ -93,12 +104,12 @@
       <div class="shell">
         <div>
           <strong>Fishing Plan</strong>
-          <p class="muted">Support: support@fishingplan.app</p>
+          <p class="muted" data-i18n="footer_support">Support: support@fishingplan.app</p>
         </div>
         <div class="footer-links">
-          <a href="index.html">Home</a>
-          <a href="privacy-policy.html">Privacy</a>
-          <a href="terms-of-use.html">Terms</a>
+          <a href="index.html" data-i18n="nav_home">Home</a>
+          <a href="privacy-policy.html" data-i18n="nav_privacy">Privacy</a>
+          <a href="terms-of-use.html" data-i18n="nav_terms">Terms</a>
         </div>
       </div>
     </footer>

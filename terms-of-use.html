@@ -3,39 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Terms of Use | Fishing Plan</title>
+    <title data-i18n-title="meta_title_terms">Terms of Use | Fishing Plan</title>
     <meta
       name="description"
       content="Terms of use for Fishing Plan, the AI-powered fishing planning assistant."
+      data-i18n="meta_description_terms"
+      data-i18n-attr="content"
     />
     <link rel="canonical" href="https://fishing-plan.com/terms-of-use.html" />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
   </head>
-  <body>
+  <body data-page="terms">
     <header class="site-header">
       <div class="shell">
         <a class="brand" href="index.html">
           <img src="assets/app-icon.png" alt="Fishing Plan icon" />
           <span>Fishing Plan</span>
         </a>
-        <nav class="nav">
-          <a href="index.html">Home</a>
-          <a href="privacy-policy.html">Privacy</a>
-          <a href="delete-account.html">Delete Account</a>
-        </nav>
+        <div class="nav-actions">
+          <nav class="nav">
+            <a href="index.html" data-i18n="nav_home">Home</a>
+            <a href="privacy-policy.html" data-i18n="nav_privacy">Privacy</a>
+            <a href="delete-account.html" data-i18n="nav_delete">Delete Account</a>
+          </nav>
+          <div class="lang-switch" aria-label="Language switcher">
+            <button type="button" class="lang-button" data-lang="tr">TR</button>
+            <button type="button" class="lang-button" data-lang="en">EN</button>
+          </div>
+        </div>
       </div>
     </header>
 
     <section class="page-hero">
       <div class="shell">
         <div class="page-hero-box">
-          <span class="eyebrow">Legal</span>
-          <h1>Terms of Use</h1>
-          <p class="lead">
+          <span class="eyebrow" data-i18n="terms_eyebrow">Legal</span>
+          <h1 data-i18n="terms_title">Terms of Use</h1>
+          <p class="lead" data-i18n="terms_lead">
             These terms describe the intended use of Fishing Plan and the main
             responsibilities around subscriptions, public content and app guidance.
           </p>
-          <p class="page-meta">Effective date: May 20, 2026</p>
+          <p class="page-meta" data-i18n="terms_effective_date">Effective date: May 20, 2026</p>
         </div>
       </div>
     </section>
@@ -44,8 +53,8 @@
       <div class="shell">
         <div class="legal-stack">
           <section>
-            <h2>1. Purpose of the App</h2>
-            <p>
+            <h2 data-i18n="terms_section_1_title">1. Purpose of the App</h2>
+            <p data-i18n="terms_section_1_body">
               Fishing Plan is an AI-powered fishing planning assistant. It may
               use weather, currents, chlorophyll density, water temperature,
               saved spots and tackle profile information to produce planning
@@ -54,8 +63,8 @@
           </section>
 
           <section>
-            <h2>2. User Responsibilities</h2>
-            <p>
+            <h2 data-i18n="terms_section_2_title">2. User Responsibilities</h2>
+            <p data-i18n="terms_section_2_body">
               Each user is responsible for complying with local fishing bans,
               seasonal restrictions, license rules, size limits, weight limits
               and any other applicable local or national regulations. Users must
@@ -64,8 +73,8 @@
           </section>
 
           <section>
-            <h2>3. Spots and Catch Logs</h2>
-            <p>
+            <h2 data-i18n="terms_section_3_title">3. Spots and Catch Logs</h2>
+            <p data-i18n="terms_section_3_body">
               Spot locations and catch log entries are private by default unless
               a user explicitly chooses to make them public. Users are responsible
               for any consequences related to content they decide to publish.
@@ -73,8 +82,8 @@
           </section>
 
           <section>
-            <h2>4. Subscriptions and Payments</h2>
-            <p>
+            <h2 data-i18n="terms_section_4_title">4. Subscriptions and Payments</h2>
+            <p data-i18n="terms_section_4_body">
               Pro and Platinum plans may be offered through Apple App Store or
               Google Play. Prices can vary by billing period and region.
               Subscription cancellations and refunds are governed by the relevant
@@ -83,8 +92,8 @@
           </section>
 
           <section>
-            <h2>5. Advertising</h2>
-            <p>
+            <h2 data-i18n="terms_section_5_title">5. Advertising</h2>
+            <p data-i18n="terms_section_5_body">
               Users on the free plan may see short ads before plan queries. Ads
               are intended to be served in a non-personalized format. Paid users
               may access the experience without ads.
@@ -92,8 +101,8 @@
           </section>
 
           <section>
-            <h2>6. Limitation of Liability</h2>
-            <p>
+            <h2 data-i18n="terms_section_6_title">6. Limitation of Liability</h2>
+            <p data-i18n="terms_section_6_body">
               Fishing Plan provides supplementary information to support user
               judgment. The app cannot be held responsible for losses related to
               sudden weather changes, technical failures or issues in third-party
@@ -102,16 +111,16 @@
           </section>
 
           <section>
-            <h2>7. Changes to Terms</h2>
-            <p>
+            <h2 data-i18n="terms_section_7_title">7. Changes to Terms</h2>
+            <p data-i18n="terms_section_7_body">
               These terms may be updated from time to time. Continued use of the
               app after an update may be treated as acceptance of the revised terms.
             </p>
           </section>
 
           <section class="callout">
-            <h2>Contact</h2>
-            <p>
+            <h2 data-i18n="contact_title">Contact</h2>
+            <p data-i18n-html="true" data-i18n="terms_contact_body">
               For questions about these terms, contact
               <strong>support@fishingplan.app</strong>.
             </p>
@@ -124,12 +133,12 @@
       <div class="shell">
         <div>
           <strong>Fishing Plan</strong>
-          <p class="muted">Support: support@fishingplan.app</p>
+          <p class="muted" data-i18n="footer_support">Support: support@fishingplan.app</p>
         </div>
         <div class="footer-links">
-          <a href="index.html">Home</a>
-          <a href="privacy-policy.html">Privacy</a>
-          <a href="delete-account.html">Delete Account</a>
+          <a href="index.html" data-i18n="nav_home">Home</a>
+          <a href="privacy-policy.html" data-i18n="nav_privacy">Privacy</a>
+          <a href="delete-account.html" data-i18n="nav_delete">Delete Account</a>
         </div>
       </div>
     </footer>
