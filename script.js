@@ -12,7 +12,7 @@ const translations = {
     meta_title_delete: "Delete Account | Fishing Plan",
     meta_description_delete: "Account deletion instructions for Fishing Plan.",
     nav_home: "Home",
-    nav_features: "Features",
+    nav_features: "Overview",
     nav_screens: "Screens",
     nav_stores: "Stores",
     nav_privacy: "Privacy",
@@ -23,69 +23,68 @@ const translations = {
     coming_soon: "Coming Soon",
     store_terms_cta: "Terms of Use",
     home_eyebrow: "AI-powered fishing planning assistant",
-    home_title: "Plan smarter fishing days with less guesswork.",
+    home_title: "One clean place to plan better fishing sessions.",
     home_lead:
-      "Fishing Plan combines weather, currents, chlorophyll density, water temperature, saved spot history and your tackle profile to build more confident fishing plans. It is designed for store listings, ad network reviews and real users who want a clean legal and support footprint.",
-    home_cta_store: "Store Presence",
+      "Fishing Plan turns weather, currents, water conditions and your saved fishing history into a calmer planning flow for both freshwater and saltwater sessions.",
+    home_cta_primary: "See App Screens",
+    home_cta_secondary: "Store Links",
     home_cta_privacy: "Privacy Policy",
-    home_stat_1_title: "Plan Support",
-    home_stat_1_body: "Weather, date, distance and technique work together in one planning flow.",
-    home_stat_2_title: "Private by Default",
-    home_stat_2_body: "Spots and catch logs stay private unless a user explicitly shares them.",
-    home_stat_3_title: "Store Ready",
-    home_stat_3_body: "Dedicated privacy, terms and account deletion pages for review teams.",
-    features_title: "Built for real sessions on the water",
+    home_point_1: "Saltwater and freshwater planning",
+    home_point_2: "Weather-aware AI recommendations",
+    home_point_3: "Private spots and catch logs",
+    features_title: "What Fishing Plan helps you do",
     features_intro:
-      "The product messaging below is aligned with the current app copy so your website, store listing and legal pages tell the same story.",
-    feature_1_title: "Personalized fishing plans",
+      "The app is designed to reduce guesswork before you leave home and to help you keep better records after each trip.",
+    feature_1_title: "Choose the right water and timing",
     feature_1_body:
-      "The app uses location, date, tackle profile and environmental signals to suggest where and how to fish with better context.",
-    feature_2_title: "Saved spots and catch logs",
+      "Start with freshwater or saltwater, then let weather, pressure and timing guide the rest of the decision.",
+    feature_2_title: "Understand why a spot looks promising",
     feature_2_body:
-      "Users can keep private spots, maintain catch records and improve future planning over time with their own fishing history.",
-    feature_3_title: "Non-personalized advertising",
-    feature_3_body: "The free plan can show short, non-personalized ads. Paid users remain ad-free.",
-    review_title: "What makes it review-friendly",
-    review_intro:
-      "App Store, Google Play and AdMob reviews usually look for a clear business identity, public legal documents and an account deletion path.",
-    review_1_title: "Public legal documents",
-    review_1_body: "Privacy policy, terms of use and account deletion instructions are each available on their own direct URL.",
-    review_2_title: "Support identity",
-    review_2_body:
-      "Public contact email: <strong>fishingplanai@gmail.com</strong>.",
-    screens_title: "Selected app screens",
-    screens_intro: "A premium look at how Fishing Plan turns marine data, saved spots and private logs into a sharper fishing workflow.",
+      "Spot analytics bring together wave data, currents and conditions so each saved place tells a clearer story.",
+    feature_3_title: "Keep your own fishing memory private",
+    feature_3_body:
+      "Save spots, log catches and build a stronger planning history while keeping personal records under your control.",
+    screens_title: "Swipe through the app experience",
+    screens_intro:
+      "A mobile-friendly preview of the real flow, starting with the saltwater and freshwater choice that shapes the rest of the session.",
+    screens_swipe_note: "Swipe sideways on mobile to move through the screenshots.",
     shot_badge_1: "Water Type",
     shot_badge_2: "Weather Intelligence",
     shot_badge_3: "Spot Analytics",
     shot_badge_4: "Analysis Flow",
     shot_badge_5: "Map Discovery",
     shot_1_title: "Start with the water type that defines the day",
-    shot_1_body: "A clean saltwater or freshwater choice frames the entire planning flow before any deeper analysis begins.",
+    shot_1_body:
+      "A clean saltwater or freshwater choice frames the entire planning flow before any deeper analysis begins.",
     shot_2_title: "Read wind, pressure and rainfall like a pro",
-    shot_2_body: "Detailed weather blocks show what is changing now and what those changes mean for the bite window.",
+    shot_2_body:
+      "Detailed weather blocks show what is changing now and what those changes mean for the bite window.",
     shot_3_title: "Unlock the story behind every saved spot",
-    shot_3_body: "From wave height to tidal energy, every card helps anglers judge a location with more confidence.",
+    shot_3_body:
+      "From wave height to tidal energy, each detail helps anglers judge a location with more confidence.",
     shot_4_title: "Watch the plan build itself step by step",
-    shot_4_body: "Environmental signals, solunar timing and tackle fit are processed into one final fishing decision.",
+    shot_4_body:
+      "Environmental signals, solunar timing and tackle fit come together in one final recommendation.",
     shot_5_title: "Explore saved spots across the coastline",
-    shot_5_body: "Search, compare and move toward new opportunities with a map built around real fishing intent.",
-    stores_title: "Store and policy links",
+    shot_5_body:
+      "Search, compare and move toward new opportunities with a map designed around real fishing intent.",
+    stores_title: "Store links",
     stores_intro:
-      "These blocks can stay on the site immediately, then you can plug in live App Store and Google Play URLs once the listings are ready.",
+      "App Store and Google Play links can stay here as soon as the listings are ready, while the website remains the public home for support and policy pages.",
     store_1_title: "Apple App Store",
     store_1_body: "Add your final App Store URL here after the app record is created.",
     store_2_title: "Google Play",
     store_2_body: "Add your final Google Play URL here after the listing goes live.",
-    legal_title: "Legal and support center",
+    legal_title: "Privacy, terms and support",
     legal_intro:
-      "Direct links below are useful for store metadata, ad network verification and any future customer support references.",
+      "Clear public links for store review teams, ad network checks and anyone who needs direct access to support policies.",
     legal_1_body: "Data collection, advertising, retention, GDPR and KVKK rights.",
     legal_2_body: "App purpose, subscriptions, responsibility boundaries and updates.",
     legal_3_body: "Public account deletion path for app review and support flows.",
     privacy_eyebrow: "Legal",
     privacy_title: "Privacy Policy",
-    privacy_lead: "This page describes how Fishing Plan collects, uses and protects user data across the app and related services.",
+    privacy_lead:
+      "This page describes how Fishing Plan collects, uses and protects user data across the app and related services.",
     privacy_effective_date: "Effective date: May 20, 2026",
     privacy_section_1_title: "1. Data We Collect",
     privacy_section_1_body:
@@ -111,7 +110,8 @@ const translations = {
     privacy_section_8_title: "8. Third-Party Services",
     privacy_section_8_body:
       "The app may integrate with Supabase, Google AdMob, Google Sign-In, Apple Sign-In and weather-related data providers. Payments, where applicable, are handled by the App Store or Google Play.",
-    privacy_contact_body: "For privacy questions or data requests, contact <strong>fishingplanai@gmail.com</strong>.",
+    privacy_contact_body:
+      "For privacy questions or data requests, contact <strong>fishingplanai@gmail.com</strong>.",
     terms_eyebrow: "Legal",
     terms_title: "Terms of Use",
     terms_lead:
@@ -138,7 +138,8 @@ const translations = {
     terms_section_7_title: "7. Changes to Terms",
     terms_section_7_body:
       "These terms may be updated from time to time. Continued use of the app after an update may be treated as acceptance of the revised terms.",
-    terms_contact_body: "For questions about these terms, contact <strong>fishingplanai@gmail.com</strong>.",
+    terms_contact_body:
+      "For questions about these terms, contact <strong>fishingplanai@gmail.com</strong>.",
     delete_eyebrow: "Support",
     delete_title: "Delete Account",
     delete_lead:
@@ -159,22 +160,21 @@ const translations = {
     delete_section_4_body:
       "If a user cannot access the app, they can request deletion support by emailing <strong>fishingplanai@gmail.com</strong> from the email address associated with the account.",
     delete_contact_title: "Support Contact",
-    delete_contact_body: "For account deletion help, contact <strong>fishingplanai@gmail.com</strong>."
+    delete_contact_body:
+      "For account deletion help, contact <strong>fishingplanai@gmail.com</strong>."
   },
   tr: {
-    meta_title_home: "Fishing Plan | Yapay Zeka Destekli Balık Avı Planı",
+    meta_title_home: "Fishing Plan | Yapay Zeka Destekli Balık Avı Planlayıcısı",
     meta_description_home:
-      "Fishing Plan; hava durumu, akıntı, su sıcaklığı ve kayıtlı meralarınızı birleştirerek daha iyi balık avı günleri planlamanıza yardım eden yapay zeka destekli bir asistandır.",
+      "Fishing Plan; hava durumu, akıntılar, su sıcaklığı ve kayıtlı noktalarınızı bir araya getirerek daha iyi balık avı günleri planlamanıza yardımcı olan yapay zeka destekli bir asistandır.",
     meta_title_privacy: "Gizlilik Politikası | Fishing Plan",
-    meta_description_privacy:
-      "Fishing Plan uygulaması için gizlilik politikası.",
+    meta_description_privacy: "Fishing Plan uygulaması için gizlilik politikası.",
     meta_title_terms: "Kullanım Koşulları | Fishing Plan",
-    meta_description_terms:
-      "Fishing Plan uygulaması için kullanım koşulları.",
+    meta_description_terms: "Fishing Plan uygulaması için kullanım koşulları.",
     meta_title_delete: "Hesap Silme | Fishing Plan",
     meta_description_delete: "Fishing Plan için hesap silme talimatları.",
     nav_home: "Ana Sayfa",
-    nav_features: "Özellikler",
+    nav_features: "Genel Bakış",
     nav_screens: "Ekranlar",
     nav_stores: "Mağazalar",
     nav_privacy: "Gizlilik",
@@ -185,69 +185,70 @@ const translations = {
     coming_soon: "Yakında",
     store_terms_cta: "Kullanım Koşulları",
     home_eyebrow: "Yapay zeka destekli balık avı planlama asistanı",
-    home_title: "Daha az tahminle daha akıllı balık avı planları kurun.",
+    home_title: "Daha iyi balık avı seanslarını tek bir temiz akışta planlayın.",
     home_lead:
-      "Fishing Plan; hava durumu, akıntılar, klorofil yoğunluğu, su sıcaklığı, kayıtlı mera geçmişi ve takım profilinizi bir araya getirerek daha güvenli av planları oluşturur. Site, mağaza listelemeleri, reklam ağı incelemeleri ve düzenli bir yasal destek izi isteyen gerçek kullanıcılar için tasarlandı.",
-    home_cta_store: "Mağaza Bağlantıları",
+      "Fishing Plan; hava durumu, akıntılar, su koşulları ve kayıtlı balık geçmişinizi bir araya getirerek hem tatlı su hem tuzlu su seansları için daha sakin bir planlama akışı sunar.",
+    home_cta_primary: "Uygulama Ekranlarını Gör",
+    home_cta_secondary: "Mağaza Linkleri",
     home_cta_privacy: "Gizlilik Politikası",
-    home_stat_1_title: "Plan Desteği",
-    home_stat_1_body: "Hava, tarih, mesafe ve teknik tek bir planlama akışında birlikte çalışır.",
-    home_stat_2_title: "Varsayılan Olarak Gizli",
-    home_stat_2_body: "Kullanıcı açıkça paylaşmadıkça meralar ve av kayıtları gizli kalır.",
-    home_stat_3_title: "Mağaza Hazır",
-    home_stat_3_body: "İnceleme ekipleri için özel gizlilik, koşullar ve hesap silme sayfaları sunulur.",
-    features_title: "Sahadaki gerçek av günleri için tasarlandı",
+    home_point_1: "Tuzlu su ve tatlı su planlama",
+    home_point_2: "Hava koşullarını okuyan yapay zeka önerileri",
+    home_point_3: "Özel meralar ve av kayıtları",
+    features_title: "Fishing Plan size ne sağlar",
     features_intro:
-      "Aşağıdaki ürün dili mevcut uygulama kopyasıyla uyumludur; böylece web sitesi, mağaza listesi ve yasal sayfalar aynı hikayeyi anlatır.",
-    feature_1_title: "Kişiselleştirilmiş av planları",
+      "Uygulama, evden çıkmadan önce tahmini azaltmak ve her seans sonrası daha iyi kayıtlar tutmanıza yardım etmek için tasarlandı.",
+    feature_1_title: "Doğru su türünü ve doğru zamanı seçin",
     feature_1_body:
-      "Uygulama; konum, tarih, takım profili ve çevresel sinyalleri kullanarak nerede ve nasıl avlanılacağına dair daha sağlam öneriler sunar.",
-    feature_2_title: "Kayıtlı meralar ve av günlüğü",
+      "Tatlı su veya tuzlu su ile başlayın, sonra hava, basınç ve zamanlama kararın geri kalanını yönlendirsin.",
+    feature_2_title: "Bir noktanın neden umut verdiğini anlayın",
     feature_2_body:
-      "Kullanıcılar özel meralarını saklayabilir, av kayıtlarını tutabilir ve kendi geçmişleriyle gelecekteki planlarını geliştirebilir.",
-    feature_3_title: "Kişiselleştirilmemiş reklamlar",
-    feature_3_body: "Ücretsiz planda kısa reklamlar gösterilebilir. Ücretli kullanıcılar reklamsız deneyim alır.",
-    review_title: "İnceleme ekipleri için neden uygun",
-    review_intro:
-      "App Store, Google Play ve AdMob incelemeleri genelde net bir marka kimliği, açık yasal belgeler ve hesap silme yolu arar.",
-    review_1_title: "Açık yasal belgeler",
-    review_1_body: "Gizlilik politikası, kullanım koşulları ve hesap silme talimatları ayrı URL'lerde sunulur.",
-    review_2_title: "Destek kimliği",
-    review_2_body:
-      "Açık iletişim e-postası: <strong>fishingplanai@gmail.com</strong>.",
-    screens_title: "Öne çıkan uygulama ekranları",
-    screens_intro: "Fishing Plan'in deniz verilerini, kayıtlı meraları ve özel kayıtları nasıl daha güçlü bir av akışına dönüştürdüğünü premium bir sunumla gösteriyoruz.",
+      "Mera analitiği; dalga verisi, akıntı ve koşulları bir araya getirerek kayıtlı her noktanın hikayesini daha net gösterir.",
+    feature_3_title: "Kendi balık hafızanızı gizli tutun",
+    feature_3_body:
+      "Meraları kaydedin, avları not alın ve kişisel kayıtlar sizde kalırken daha güçlü bir planlama geçmişi oluşturun.",
+    screens_title: "Uygulama deneyiminde kaydırarak gezin",
+    screens_intro:
+      "Gerçek akışın mobil uyumlu bir ön izlemesi. İlk adım olarak tüm seansı şekillendiren tuzlu su ve tatlı su seçimiyle başlar.",
+    screens_swipe_note: "Mobilde ekran görüntüleri arasında geçmek için yana kaydırın.",
     shot_badge_1: "Su Türü",
-    shot_badge_2: "Hava Zekâsı",
+    shot_badge_2: "Hava Zekası",
     shot_badge_3: "Mera Analitiği",
     shot_badge_4: "Analiz Akışı",
     shot_badge_5: "Harita Keşfi",
     shot_1_title: "Günü tanımlayan su türüyle başlayın",
-    shot_1_body: "Temiz bir tuzlu su veya tatlı su seçimi, daha derin analiz başlamadan tüm planlama akışını çerçeveler.",
-    shot_2_title: "Rüzgârı, basıncı ve yağışı profesyonel gibi okuyun",
-    shot_2_body: "Detaylı hava blokları şu an neyin değiştiğini ve bunun vuruş penceresi için ne anlama geldiğini gösterir.",
-    shot_3_title: "Kaydettiğiniz her meranın hikâyesini açığa çıkarın",
-    shot_3_body: "Dalga boyundan gelgit enerjisine kadar her kart, bir lokasyonu daha güvenle değerlendirmenize yardım eder.",
+    shot_1_body:
+      "Temiz bir tuzlu su veya tatlı su seçimi, daha derin analiz başlamadan tüm planlama akışını çerçeveler.",
+    shot_2_title: "Rüzgarı, basıncı ve yağışı profesyonel gibi okuyun",
+    shot_2_body:
+      "Detaylı hava blokları şu an neyin değiştiğini ve bunun av penceresi için ne anlama geldiğini gösterir.",
+    shot_3_title: "Kaydettiğiniz her meranın hikayesini açığa çıkarın",
+    shot_3_body:
+      "Dalga boyundan gelgit enerjisine kadar her detay, bir lokasyonu daha güvenli değerlendirmenize yardım eder.",
     shot_4_title: "Planın adım adım kurulmasını izleyin",
-    shot_4_body: "Çevresel sinyaller, solunar zamanlama ve takım uyumu tek bir nihai av kararına dönüştürülür.",
+    shot_4_body:
+      "Çevresel sinyaller, solunar zamanlama ve takım uyumu tek bir nihai öneride birleşir.",
     shot_5_title: "Kıyı boyunca kayıtlı noktaları keşfedin",
-    shot_5_body: "Gerçek av niyetine göre tasarlanmış bir harita ile yeni fırsatları arayın, karşılaştırın ve yönelin.",
-    stores_title: "Mağaza ve politika bağlantıları",
+    shot_5_body:
+      "Gerçek av niyeti etrafında tasarlanmış bir harita ile yeni fırsatları arayın, karşılaştırın ve yönelin.",
+    stores_title: "Mağaza linkleri",
     stores_intro:
-      "Bu bloklar hemen sitede kalabilir; App Store ve Google Play linkleri hazır olunca canlı URL'leri ekleriz.",
+      "App Store ve Google Play bağlantıları hazır olduğunda burada yer alabilir; web sitesi ise destek ve politika sayfalarının herkese açık evi olarak kalır.",
     store_1_title: "Apple App Store",
-    store_1_body: "Uygulama kaydı oluştuktan sonra son App Store bağlantınızı buraya ekleyin.",
+    store_1_body:
+      "Uygulama kaydı oluşturulduktan sonra son App Store bağlantınızı buraya ekleyin.",
     store_2_title: "Google Play",
-    store_2_body: "Liste yayınlandığında son Google Play bağlantınızı buraya ekleyin.",
-    legal_title: "Yasal ve destek merkezi",
+    store_2_body:
+      "Liste yayına girdikten sonra son Google Play bağlantınızı buraya ekleyin.",
+    legal_title: "Gizlilik, koşullar ve destek",
     legal_intro:
-      "Aşağıdaki doğrudan bağlantılar mağaza metadatası, reklam ağı doğrulaması ve gelecekteki müşteri desteği için yararlıdır.",
+      "Mağaza inceleme ekipleri, reklam ağı kontrolleri ve destek politikalarına doğrudan ulaşmak isteyen herkes için açık bağlantılar.",
     legal_1_body: "Veri toplama, reklamlar, saklama süresi, GDPR ve KVKK hakları.",
     legal_2_body: "Uygulama amacı, abonelikler, sorumluluk sınırları ve güncellemeler.",
-    legal_3_body: "Mağaza inceleme ve destek akışlarına uygun açık hesap silme yolu.",
+    legal_3_body: "Mağaza inceleme ve destek akışları için açık hesap silme yolu.",
     privacy_eyebrow: "Yasal",
     privacy_title: "Gizlilik Politikası",
-    privacy_lead: "Bu sayfa, Fishing Plan'in kullanıcı verilerini uygulama ve ilgili hizmetlerde nasıl topladığını, kullandığını ve koruduğunu açıklar.",
+    privacy_lead:
+      "Bu sayfa, Fishing Plan'in kullanıcı verilerini uygulama ve ilgili hizmetlerde nasıl topladığını, kullandığını ve koruduğunu açıklar.",
     privacy_effective_date: "Yürürlük tarihi: 20 Mayıs 2026",
     privacy_section_1_title: "1. Toplanan Veriler",
     privacy_section_1_body:
@@ -273,7 +274,8 @@ const translations = {
     privacy_section_8_title: "8. Üçüncü Taraf Hizmetler",
     privacy_section_8_body:
       "Uygulama Supabase, Google AdMob, Google Sign-In, Apple Sign-In ve hava durumu veri sağlayıcılarıyla entegre olabilir. Uygun olduğunda ödemeler App Store veya Google Play üzerinden işlenir.",
-    privacy_contact_body: "Gizlilik soruları veya veri talepleri için <strong>fishingplanai@gmail.com</strong> adresiyle iletişime geçin.",
+    privacy_contact_body:
+      "Gizlilik soruları veya veri talepleri için <strong>fishingplanai@gmail.com</strong> adresiyle iletişime geçin.",
     terms_eyebrow: "Yasal",
     terms_title: "Kullanım Koşulları",
     terms_lead:
@@ -287,7 +289,7 @@ const translations = {
       "Her kullanıcı, yerel balık avı yasakları, mevsimsel kısıtlamalar, ruhsat kuralları, boy ve ağırlık sınırları ile tüm yerel veya ulusal düzenlemelere uymaktan sorumludur. Kurallar resmi kaynaklardan doğrulanmalıdır.",
     terms_section_3_title: "3. Mera ve Av Kayıtları",
     terms_section_3_body:
-      "Mera konumları ve av kayıtları, kullanıcı açıkça herkese açık yapmayı seçmedikçe varsayılan olarak özeldir. Kullanıcılar yayınlamayı seçtikleri içeriklerin sonuçlarından kendileri sorumludur.",
+      "Mera konumları ve av kayıtları, kullanıcı açıkça herkese açık yapmayı seçmedikçe varsayılan olarak özeldir. Kullanıcılar yayımlamayı seçtikleri içeriklerin sonuçlarından kendileri sorumludur.",
     terms_section_4_title: "4. Abonelikler ve Ödemeler",
     terms_section_4_body:
       "Pro ve Platinum planları Apple App Store veya Google Play üzerinden sunulabilir. Fiyatlar faturalama dönemine ve bölgeye göre değişebilir. İptal ve iade süreçleri ilgili mağaza platformunun kurallarına tabidir. Fishing Plan ödeme kartı bilgilerini saklamaz.",
@@ -300,7 +302,8 @@ const translations = {
     terms_section_7_title: "7. Koşullardaki Değişiklikler",
     terms_section_7_body:
       "Bu koşullar zaman zaman güncellenebilir. Güncellemeden sonra uygulamayı kullanmaya devam etmek, düzeltilmiş koşulların kabul edildiği anlamına gelebilir.",
-    terms_contact_body: "Bu koşullarla ilgili sorular için <strong>fishingplanai@gmail.com</strong> adresiyle iletişime geçin.",
+    terms_contact_body:
+      "Bu koşullarla ilgili sorular için <strong>fishingplanai@gmail.com</strong> adresiyle iletişime geçin.",
     delete_eyebrow: "Destek",
     delete_title: "Hesap Silme",
     delete_lead:
@@ -321,7 +324,8 @@ const translations = {
     delete_section_4_body:
       "Kullanıcı uygulamaya erişemiyorsa, hesaba bağlı e-posta adresinden <strong>fishingplanai@gmail.com</strong> adresine yazarak silme desteği talep edebilir.",
     delete_contact_title: "Destek İletişimi",
-    delete_contact_body: "Hesap silme yardımı için <strong>fishingplanai@gmail.com</strong> ile iletişime geçin."
+    delete_contact_body:
+      "Hesap silme yardımı için <strong>fishingplanai@gmail.com</strong> ile iletişime geçin."
   }
 };
 
