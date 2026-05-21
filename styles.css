@@ -304,6 +304,8 @@ h1 {
 }
 
 .screen-media {
+  height: 640px;
+  overflow: hidden;
   padding: 18px 18px 10px;
   background:
     radial-gradient(circle at top, rgba(117, 230, 223, 0.22), transparent 42%),
@@ -312,9 +314,39 @@ h1 {
 
 .screen-media img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
   border-radius: 24px;
   box-shadow: 0 14px 38px rgba(11, 39, 44, 0.14);
+}
+
+.crop-banner img {
+  object-position: center 23%;
+}
+
+.crop-standard img {
+  object-position: center 14%;
+}
+
+.crop-map img {
+  object-position: center 34%;
+}
+
+.crop-water img {
+  object-position: center 27%;
+}
+
+.crop-weather img {
+  object-position: center 16%;
+}
+
+.crop-spot img {
+  object-position: center 24%;
+}
+
+.crop-analysis img {
+  object-position: center 13%;
 }
 
 .screen-copy {
@@ -569,6 +601,7 @@ h1 {
   }
 
   .screen-media {
+    height: 560px;
     padding: 14px 14px 8px;
   }
 
