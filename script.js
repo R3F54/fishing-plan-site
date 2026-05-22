@@ -369,9 +369,69 @@ function applyLanguage(language) {
   });
 }
 
+function initScreenCarousel() {
+  const carousel = document.querySelector("[data-carousel]");
+  const track = document.querySelector("[data-carousel-track]");
+  const dotsHost = document.querySelector("[data-carousel-dots]");
+  if (!carousel || !track || !dotsHost) return;
+
+  const slides = Array.from(track.querySelectorAll("[data-carousel-slide]"));
+  if (!slides.length) return;
+
+  const dots = slides.map((_, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "screen-dot";
+    button.setAttribute("aria-label", `Go to screen ${index + 1}`);
+    button.addEventListener("click", () => {
+      const target = slides[index];
+      if (!target) return;
+      track.scrollTo({
+        left: target.offsetLeft - track.offsetLeft,
+        behavior: "smooth",
+      });
+    });
+    dotsHost.appendChild(button);
+    return button;
+  });
+
+  const setActive = () => {
+    const trackCenter = track.scrollLeft + track.clientWidth / 2;
+    let activeIndex = 0;
+    let minDistance = Number.POSITIVE_INFINITY;
+
+    slides.forEach((slide, index) => {
+      const slideCenter = slide.offsetLeft + slide.clientWidth / 2;
+      const distance = Math.abs(trackCenter - slideCenter);
+      if (distance < minDistance) {
+        minDistance = distance;
+        activeIndex = index;
+      }
+    });
+
+    slides.forEach((slide, index) => {
+      slide.classList.toggle("is-active", index === activeIndex);
+    });
+    dots.forEach((dot, index) => {
+      dot.classList.toggle("is-active", index === activeIndex);
+      dot.setAttribute("aria-current", index === activeIndex ? "true" : "false");
+    });
+  };
+
+  let rafId = 0;
+  track.addEventListener("scroll", () => {
+    if (rafId) cancelAnimationFrame(rafId);
+    rafId = requestAnimationFrame(setActive);
+  }, { passive: true });
+
+  window.addEventListener("resize", setActive);
+  setActive();
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const currentLanguage = getPreferredLanguage();
   applyLanguage(currentLanguage);
+  initScreenCarousel();
 
   document.querySelectorAll(".lang-button").forEach((button) => {
     button.addEventListener("click", () => {
