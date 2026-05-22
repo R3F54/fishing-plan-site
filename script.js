@@ -414,9 +414,17 @@ function initScreenCarousel() {
     const safeIndex = getWrappedIndex(index);
     const target = slides[safeIndex];
     if (!target) return;
+    activeIndex = safeIndex;
     track.scrollTo({
       left: target.offsetLeft - track.offsetLeft,
       behavior: "smooth",
+    });
+    slides.forEach((slide, slideIndex) => {
+      slide.classList.toggle("is-active", slideIndex === activeIndex);
+    });
+    dots.forEach((dot, dotIndex) => {
+      dot.classList.toggle("is-active", dotIndex === activeIndex);
+      dot.setAttribute("aria-current", dotIndex === activeIndex ? "true" : "false");
     });
   };
 
