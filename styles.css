@@ -396,6 +396,20 @@ h1 {
   border-radius: 24px;
 }
 
+.crop-water img {
+  clip-path: inset(0 0 56px 0 round 24px);
+}
+
+.crop-weather img,
+.crop-spot img,
+.crop-analysis img {
+  clip-path: inset(0 0 54px 0 round 24px);
+}
+
+.crop-map img {
+  clip-path: inset(0 0 68px 0 round 24px);
+}
+
 .screen-copy {
   padding: 0 4px 2px;
 }
