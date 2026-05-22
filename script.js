@@ -405,6 +405,16 @@ function initScreenCarousel() {
   if (!slides.length) return;
   let activeIndex = 0;
 
+  const updateActiveUI = () => {
+    slides.forEach((slide, slideIndex) => {
+      slide.classList.toggle("is-active", slideIndex === activeIndex);
+    });
+    dots.forEach((dot, dotIndex) => {
+      dot.classList.toggle("is-active", dotIndex === activeIndex);
+      dot.setAttribute("aria-current", dotIndex === activeIndex ? "true" : "false");
+    });
+  };
+
   const getWrappedIndex = (index) => {
     if (!slides.length) return 0;
     return (index + slides.length) % slides.length;
@@ -419,13 +429,7 @@ function initScreenCarousel() {
       left: target.offsetLeft - track.offsetLeft,
       behavior: "smooth",
     });
-    slides.forEach((slide, slideIndex) => {
-      slide.classList.toggle("is-active", slideIndex === activeIndex);
-    });
-    dots.forEach((dot, dotIndex) => {
-      dot.classList.toggle("is-active", dotIndex === activeIndex);
-      dot.setAttribute("aria-current", dotIndex === activeIndex ? "true" : "false");
-    });
+    updateActiveUI();
   };
 
   const dots = slides.map((_, index) => {
@@ -453,23 +457,26 @@ function initScreenCarousel() {
     });
 
     activeIndex = nextActiveIndex;
-
-    slides.forEach((slide, index) => {
-      slide.classList.toggle("is-active", index === activeIndex);
-    });
-    dots.forEach((dot, index) => {
-      dot.classList.toggle("is-active", index === activeIndex);
-      dot.setAttribute("aria-current", index === activeIndex ? "true" : "false");
-    });
+    updateActiveUI();
   };
 
-  prevButton?.addEventListener("click", () => {
+  const handlePrev = (event) => {
+    event.preventDefault();
+    event.stopPropagation();
     scrollToSlide(activeIndex - 1);
-  });
+  };
 
-  nextButton?.addEventListener("click", () => {
+  const handleNext = (event) => {
+    event.preventDefault();
+    event.stopPropagation();
     scrollToSlide(activeIndex + 1);
-  });
+  };
+
+  prevButton?.addEventListener("click", handlePrev);
+  prevButton?.addEventListener("touchstart", handlePrev, { passive: false });
+
+  nextButton?.addEventListener("click", handleNext);
+  nextButton?.addEventListener("touchstart", handleNext, { passive: false });
 
   let rafId = 0;
   track.addEventListener("scroll", () => {
