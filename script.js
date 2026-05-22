@@ -373,41 +373,49 @@ function initScreenCarousel() {
   const carousel = document.querySelector("[data-carousel]");
   const track = document.querySelector("[data-carousel-track]");
   const dotsHost = document.querySelector("[data-carousel-dots]");
+  const prevButton = document.querySelector("[data-carousel-prev]");
+  const nextButton = document.querySelector("[data-carousel-next]");
   if (!carousel || !track || !dotsHost) return;
 
   const slides = Array.from(track.querySelectorAll("[data-carousel-slide]"));
   if (!slides.length) return;
+  let activeIndex = 0;
+
+  const scrollToSlide = (index) => {
+    const safeIndex = Math.max(0, Math.min(index, slides.length - 1));
+    const target = slides[safeIndex];
+    if (!target) return;
+    track.scrollTo({
+      left: target.offsetLeft - track.offsetLeft,
+      behavior: "smooth",
+    });
+  };
 
   const dots = slides.map((_, index) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "screen-dot";
     button.setAttribute("aria-label", `Go to screen ${index + 1}`);
-    button.addEventListener("click", () => {
-      const target = slides[index];
-      if (!target) return;
-      track.scrollTo({
-        left: target.offsetLeft - track.offsetLeft,
-        behavior: "smooth",
-      });
-    });
+    button.addEventListener("click", () => scrollToSlide(index));
     dotsHost.appendChild(button);
     return button;
   });
 
   const setActive = () => {
     const trackCenter = track.scrollLeft + track.clientWidth / 2;
-    let activeIndex = 0;
     let minDistance = Number.POSITIVE_INFINITY;
+    let nextActiveIndex = 0;
 
     slides.forEach((slide, index) => {
       const slideCenter = slide.offsetLeft + slide.clientWidth / 2;
       const distance = Math.abs(trackCenter - slideCenter);
       if (distance < minDistance) {
         minDistance = distance;
-        activeIndex = index;
+        nextActiveIndex = index;
       }
     });
+
+    activeIndex = nextActiveIndex;
 
     slides.forEach((slide, index) => {
       slide.classList.toggle("is-active", index === activeIndex);
@@ -417,6 +425,14 @@ function initScreenCarousel() {
       dot.setAttribute("aria-current", index === activeIndex ? "true" : "false");
     });
   };
+
+  prevButton?.addEventListener("click", () => {
+    scrollToSlide(activeIndex - 1);
+  });
+
+  nextButton?.addEventListener("click", () => {
+    scrollToSlide(activeIndex + 1);
+  });
 
   let rafId = 0;
   track.addEventListener("scroll", () => {
