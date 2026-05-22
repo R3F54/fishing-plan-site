@@ -410,6 +410,18 @@ h1 {
   clip-path: inset(0 0 68px 0 round 24px);
 }
 
+.crop-tackle img {
+  clip-path: inset(108px 0 68px 0 round 24px);
+}
+
+.crop-saved-spots img {
+  clip-path: inset(108px 0 68px 0 round 24px);
+}
+
+.crop-radar img {
+  clip-path: inset(0 0 66px 0 round 24px);
+}
+
 .screen-copy {
   padding: 0 4px 2px;
 }

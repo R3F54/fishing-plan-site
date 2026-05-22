@@ -53,6 +53,9 @@ const translations = {
     shot_badge_3: "Spot Analytics",
     shot_badge_4: "Analysis Flow",
     shot_badge_5: "Map Discovery",
+    shot_badge_6: "Tackle Library",
+    shot_badge_7: "Saved Spots",
+    shot_badge_8: "Rain Radar",
     shot_1_title: "Start with the water type that defines the day",
     shot_1_body:
       "A clean saltwater or freshwater choice frames the entire planning flow before any deeper analysis begins.",
@@ -68,6 +71,15 @@ const translations = {
     shot_5_title: "Explore saved spots across the coastline",
     shot_5_body:
       "Search, compare and move toward new opportunities with a map designed around real fishing intent.",
+    shot_6_title: "Keep every setup ready for the next session",
+    shot_6_body:
+      "Rod classes, lure styles and saved combinations stay organized in one tackle view built for fast decisions.",
+    shot_7_title: "Turn your best locations into instant trip plans",
+    shot_7_body:
+      "Favorite spots can be revisited in seconds, scheduled for today or the weekend, and shared only when you choose.",
+    shot_8_title: "See wind and rainfall before the water changes",
+    shot_8_body:
+      "Radar panels and hourly wind blocks make it easier to judge how fast the conditions are moving.",
     stores_title: "Store links",
     stores_intro:
       "App Store and Google Play links can stay here as soon as the listings are ready, while the website remains the public home for support and policy pages.",
@@ -215,6 +227,9 @@ const translations = {
     shot_badge_3: "Mera Analitiği",
     shot_badge_4: "Analiz Akışı",
     shot_badge_5: "Harita Keşfi",
+    shot_badge_6: "Takım Kütüphanesi",
+    shot_badge_7: "Kayıtlı Meralar",
+    shot_badge_8: "Yağış Radarı",
     shot_1_title: "Günü tanımlayan su türüyle başlayın",
     shot_1_body:
       "Temiz bir tuzlu su veya tatlı su seçimi, daha derin analiz başlamadan tüm planlama akışını çerçeveler.",
@@ -230,6 +245,15 @@ const translations = {
     shot_5_title: "Kıyı boyunca kayıtlı noktaları keşfedin",
     shot_5_body:
       "Gerçek av niyeti etrafında tasarlanmış bir harita ile yeni fırsatları arayın, karşılaştırın ve yönelin.",
+    shot_6_title: "Bir sonraki seans için tüm takımlarınızı hazır tutun",
+    shot_6_body:
+      "Kamış sınıfları, yem stilleri ve kayıtlı kombinasyonlar hızlı kararlar için tek bir takım görünümünde düzenli kalır.",
+    shot_7_title: "En iyi meralarınızı anında gezi planına dönüştürün",
+    shot_7_body:
+      "Favori meralar saniyeler içinde yeniden açılabilir, bugün ya da hafta sonu için planlanabilir ve yalnızca siz isterseniz paylaşılır.",
+    shot_8_title: "Su değişmeden önce rüzgarı ve yağışı görün",
+    shot_8_body:
+      "Radar panelleri ve saatlik rüzgar blokları, koşulların ne kadar hızlı değiştiğini anlamayı kolaylaştırır.",
     stores_title: "Mağaza linkleri",
     stores_intro:
       "App Store ve Google Play bağlantıları hazır olduğunda burada yer alabilir; web sitesi ise destek ve politika sayfalarının herkese açık evi olarak kalır.",
