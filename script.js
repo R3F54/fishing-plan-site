@@ -405,8 +405,13 @@ function initScreenCarousel() {
   if (!slides.length) return;
   let activeIndex = 0;
 
+  const getWrappedIndex = (index) => {
+    if (!slides.length) return 0;
+    return (index + slides.length) % slides.length;
+  };
+
   const scrollToSlide = (index) => {
-    const safeIndex = Math.max(0, Math.min(index, slides.length - 1));
+    const safeIndex = getWrappedIndex(index);
     const target = slides[safeIndex];
     if (!target) return;
     track.scrollTo({
