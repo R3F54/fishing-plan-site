@@ -23,9 +23,9 @@ const translations = {
     coming_soon: "Coming Soon",
     store_terms_cta: "Terms of Use",
     home_eyebrow: "AI-powered fishing planning assistant",
-    home_title: "One clean place to plan better fishing sessions.",
+    home_title: "Plan smarter fishing trips with 20 live metrics and AI-powered analysis.",
     home_lead:
-      "Fishing Plan turns weather, currents, water conditions and your saved fishing history into a calmer planning flow for both freshwater and saltwater sessions.",
+      "Plan smarter fishing trips with 20 live metrics and AI-powered analysis, bringing weather, water conditions, spot data, and AI insights together in one clean planning flow.",
     home_cta_primary: "See App Screens",
     home_cta_secondary: "Store Links",
     home_cta_privacy: "Privacy Policy",
@@ -197,9 +197,9 @@ const translations = {
     coming_soon: "Yakında",
     store_terms_cta: "Kullanım Koşulları",
     home_eyebrow: "Yapay zeka destekli balık avı planlama asistanı",
-    home_title: "Daha iyi balık avı seanslarını tek bir temiz akışta planlayın.",
+    home_title: "20 canlı metrik ve yapay zeka destekli analizle balık avı planlarınızı daha akıllı kurun.",
     home_lead:
-      "Fishing Plan; hava durumu, akıntılar, su koşulları ve kayıtlı balık geçmişinizi bir araya getirerek hem tatlı su hem tuzlu su seansları için daha sakin bir planlama akışı sunar.",
+      "Hava durumu, su koşulları, mera verileri ve yapay zeka içgörülerini tek bir temiz planlama akışında bir araya getirerek balık avı planlarınızı daha güçlü hale getirin.",
     home_cta_primary: "Uygulama Ekranlarını Gör",
     home_cta_secondary: "Mağaza Linkleri",
     home_cta_privacy: "Gizlilik Politikası",
