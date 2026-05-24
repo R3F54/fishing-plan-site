@@ -54,24 +54,44 @@ const translations = {
     shot_badge_4: "Spot Discovery",
     shot_badge_5: "AI Analysis",
     shot_badge_6: "Casting Windows",
-    shot_1_title: "Start with a clean saltwater or freshwater decision",
+    shot_badge_7: "Map Search",
+    shot_badge_8: "AI Engine",
+    shot_badge_9: "Plan Score",
+    shot_badge_10: "Marine Detail",
+    shot_badge_11: "Catch Log",
+    shot_1_title: "Choose your water and start the trip the right way",
     shot_1_body:
-      "The first step frames the entire trip, letting the app shape every next suggestion around the water you want to fish.",
-    shot_2_title: "Choose the exact setup you want to fish",
+      "Start with saltwater or freshwater and let the app shape the entire session around the environment you want to fish.",
+    shot_2_title: "Match the plan to your preferred fishing technique",
     shot_2_body:
-      "Build the session around your preferred technique so the final plan reflects how you actually want to cast.",
-    shot_3_title: "Keep rods, lures and saved setups in one place",
+      "Pick the setup you actually want to use so every recommendation feels relevant before you even cast.",
+    shot_3_title: "Keep your tackle bag organized and ready to go",
     shot_3_body:
-      "Your gear library stays organized so every plan can match the tackle you already trust on the water.",
-    shot_4_title: "Find productive spots directly on the map",
+      "Rods, lure styles and saved setups stay in one clean place, ready for faster decisions on every trip.",
+    shot_4_title: "Find stronger spots faster on the map",
     shot_4_body:
-      "Explore saved areas, public spots and catch activity to move faster toward better fishing ground.",
-    shot_5_title: "Let AI process the signals before you move",
+      "Browse active locations, compare nearby options and move toward more promising water with less guesswork.",
+    shot_5_title: "Let AI turn live fishing data into a clear call",
     shot_5_body:
-      "Wave, pressure, weather and tide signals are calculated together to build a smarter fishing decision.",
-    shot_6_title: "See the strongest casting windows before the trip",
+      "Weather, waves, pressure and tides are processed together so you can make smarter decisions with less effort.",
+    shot_6_title: "See your best casting window before you leave",
     shot_6_body:
-      "Confidence scores, species context and commentary turn raw metrics into a plan you can act on fast.",
+      "Confidence scores, species insights and clear commentary help you know when the session looks strongest.",
+    shot_7_title: "Search wider waters and compare more locations",
+    shot_7_body:
+      "Zoom out, scan more coastline and spot clusters of opportunity before narrowing down your next move.",
+    shot_8_title: "Watch the plan build in real time",
+    shot_8_body:
+      "The app shows each data layer being processed, turning complex signals into a confident final result.",
+    shot_9_title: "See why the session scores high before you go",
+    shot_9_body:
+      "A clear score, species context and premium commentary explain exactly why the window looks strong.",
+    shot_10_title: "Open the deeper marine data when you need it",
+    shot_10_body:
+      "Move beyond the summary and inspect the metrics that matter most before committing to the trip.",
+    shot_11_title: "Save your catches and build a smarter history",
+    shot_11_body:
+      "Every trip can feed your own fishing memory, helping future plans become sharper over time.",
     stores_title: "Store links",
     stores_intro:
       "App Store and Google Play links can stay here as soon as the listings are ready, while the website remains the public home for support and policy pages.",
@@ -220,32 +240,44 @@ const translations = {
     shot_badge_4: "Mera Keşfi",
     shot_badge_5: "Yapay Zeka Analizi",
     shot_badge_6: "Atış Pencereleri",
-    shot_badge_7: "Kayıtlı Meralar",
-    shot_badge_8: "Yağış Radarı",
-    shot_1_title: "Tuzlu su ya da tatlı su kararını temizce verin",
+    shot_badge_7: "Harita Araması",
+    shot_badge_8: "YZ Motoru",
+    shot_badge_9: "Plan Skoru",
+    shot_badge_10: "Deniz Detayı",
+    shot_badge_11: "Av Kaydı",
+    shot_1_title: "Su türünü seçin ve geziyi doğru başlayın",
     shot_1_body:
-      "İlk adım tüm geziyi çerçeveler ve sonraki önerilerin tamamını seçtiğiniz su türüne göre şekillendirir.",
-    shot_2_title: "Balık tutmak istediğiniz tekniği net seçin",
+      "Tuzlu su ya da tatlı su ile başlayın; uygulama tüm planı seçtiğiniz ortama göre şekillendirsin.",
+    shot_2_title: "Planı tercih ettiğiniz av tekniğine göre kurun",
     shot_2_body:
-      "Seansı tercih ettiğiniz tekniğin etrafında kurun; final plan gerçekten nasıl avlanmak istediğinizi yansıtsın.",
-    shot_3_title: "Kamışları, yemleri ve kayıtlı takımları tek yerde tutun",
+      "Kullanmak istediğiniz tekniği seçin, öneriler daha ilk adımdan gerçekten size uygun hale gelsin.",
+    shot_3_title: "Takım çantanızı düzenli ve hazır tutun",
     shot_3_body:
-      "Takım kütüphaneniz düzenli kalır; böylece her plan su üstünde zaten güvendiğiniz ekipmana uyum sağlar.",
-    shot_4_title: "Verimli meraları doğrudan harita üzerinde bulun",
+      "Kamışlar, yem stilleri ve kayıtlı takımlar tek yerde toplansın; her gezi öncesi daha hızlı karar verin.",
+    shot_4_title: "Daha verimli meraları haritada daha hızlı bulun",
     shot_4_body:
-      "Kayıtlı alanları, herkese açık noktaları ve av hareketini keşfederek daha iyi meralara daha hızlı ilerleyin.",
-    shot_5_title: "Harekete geçmeden önce sinyalleri yapay zekaya yorumlatın",
+      "Aktif noktaları gezin, yakın seçenekleri karşılaştırın ve daha umut veren sulara daha az tahminle ilerleyin.",
+    shot_5_title: "Canlı balık avı verilerini yapay zekaya yorumlatın",
     shot_5_body:
-      "Dalga, basınç, hava ve gelgit sinyalleri birlikte hesaplanır ve daha akıllı bir balık avı kararı oluşur.",
-    shot_6_title: "Gezi öncesi en güçlü atış pencerelerini görün",
+      "Hava, dalga, basınç ve gelgit verileri birlikte işlenir; siz de daha az eforla daha akıllı karar verirsiniz.",
+    shot_6_title: "Evden çıkmadan en iyi atış penceresini görün",
     shot_6_body:
-      "Güven skorları, tür bağlamı ve yorumlar ham metrikleri hızla uygulanabilir bir plana dönüştürür.",
-    shot_7_title: "En iyi meralarınızı anında gezi planına dönüştürün",
+      "Güven skorları, tür içgörüleri ve net yorumlar size seansın en güçlü anını önceden gösterir.",
+    shot_7_title: "Daha geniş suları tarayın ve daha çok lokasyonu karşılaştırın",
     shot_7_body:
-      "Favori meralar saniyeler içinde yeniden açılabilir, bugün ya da hafta sonu için planlanabilir ve yalnızca siz isterseniz paylaşılır.",
-    shot_8_title: "Su değişmeden önce rüzgarı ve yağışı görün",
+      "Haritayı açın, daha fazla kıyıyı görün ve bir sonraki hamlenizi daraltmadan önce fırsat kümelerini yakalayın.",
+    shot_8_title: "Planın gerçek zamanlı kurulmasını izleyin",
     shot_8_body:
-      "Radar panelleri ve saatlik rüzgar blokları, koşulların ne kadar hızlı değiştiğini anlamayı kolaylaştırır.",
+      "Uygulama her veri katmanının işlendiğini gösterir ve karmaşık sinyalleri güçlü bir sonuca dönüştürür.",
+    shot_9_title: "Yola çıkmadan önce skorun neden yüksek olduğunu görün",
+    shot_9_body:
+      "Net skorlar, tür bağlamı ve premium yorumlar pencerenin neden güçlü olduğunu açıkça anlatır.",
+    shot_10_title: "İhtiyaç duyduğunuzda daha derin deniz verisini açın",
+    shot_10_body:
+      "Özetin ötesine geçin ve geziye karar vermeden önce gerçekten önemli metrikleri inceleyin.",
+    shot_11_title: "Avlarınızı kaydedin ve daha akıllı bir geçmiş oluşturun",
+    shot_11_body:
+      "Her seans kendi balık hafızanıza eklenir; böylece gelecek planlar zamanla daha keskin hale gelir.",
     stores_title: "Mağaza linkleri",
     stores_intro:
       "App Store ve Google Play bağlantıları hazır olduğunda burada yer alabilir; web sitesi ise destek ve politika sayfalarının herkese açık evi olarak kalır.",
