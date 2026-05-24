@@ -59,6 +59,7 @@ const translations = {
     shot_badge_9: "Plan Score",
     shot_badge_10: "Marine Detail",
     shot_badge_11: "Catch Log",
+    shot_badge_12: "Smart Notifications",
     shot_1_title: "Choose your water and start the trip the right way",
     shot_1_body:
       "Start with saltwater or freshwater and let the app shape the entire session around the environment you want to fish.",
@@ -92,6 +93,9 @@ const translations = {
     shot_11_title: "Save your catches and build a smarter history",
     shot_11_body:
       "Every trip can feed your own fishing memory, helping future plans become sharper over time.",
+    shot_12_title: "Stay ahead with reminders that matter",
+    shot_12_body:
+      "Plan-day alerts, score refresh reminders and automatic opportunity notifications keep you ready before conditions turn.",
     stores_title: "Store links",
     stores_intro:
       "App Store and Google Play links can stay here as soon as the listings are ready, while the website remains the public home for support and policy pages.",
@@ -245,6 +249,7 @@ const translations = {
     shot_badge_9: "Plan Skoru",
     shot_badge_10: "Deniz Detayı",
     shot_badge_11: "Av Kaydı",
+    shot_badge_12: "Akıllı Bildirimler",
     shot_1_title: "Su türünü seçin ve geziyi doğru başlayın",
     shot_1_body:
       "Tuzlu su ya da tatlı su ile başlayın; uygulama tüm planı seçtiğiniz ortama göre şekillendirsin.",
@@ -278,6 +283,9 @@ const translations = {
     shot_11_title: "Avlarınızı kaydedin ve daha akıllı bir geçmiş oluşturun",
     shot_11_body:
       "Her seans kendi balık hafızanıza eklenir; böylece gelecek planlar zamanla daha keskin hale gelir.",
+    shot_12_title: "Gerçekten önemli hatırlatmalarla önde kalın",
+    shot_12_body:
+      "Plan günü uyarıları, skor yenileme hatırlatmaları ve otomatik fırsat bildirimleri koşullar dönmeden önce sizi hazır tutar.",
     stores_title: "Mağaza linkleri",
     stores_intro:
       "App Store ve Google Play bağlantıları hazır olduğunda burada yer alabilir; web sitesi ise destek ve politika sayfalarının herkese açık evi olarak kalır.",
