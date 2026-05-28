@@ -117,6 +117,17 @@ const translations = {
     privacy_section_1_title: "1. Data We Collect",
     privacy_section_1_body:
       "Fishing Plan collects only the data needed to generate plans and personalize the experience. This may include device identifier, preferred spot locations, catch log entries, selected tackle profile, plan date, fishing technique and distance preferences. If the user signs in, an email address or an anonymous identity provider identifier from Google or Apple may also be stored.",
+    privacy_google_title: "Google User Data",
+    privacy_google_body_1:
+      "Fishing Plan AI allows users to sign in with Google. When a user chooses to sign in with Google, we may access basic Google account information such as email address, name and profile photo, depending on the permissions granted by Google.",
+    privacy_google_body_2:
+      "We use Google user data only to create and manage the user's Fishing Plan AI account, authenticate the user, keep the session active, and connect saved fishing plans, spots, preferences and subscription status to that account.",
+    privacy_google_body_3:
+      "Fishing Plan AI does not sell Google user data and does not use Google user data for advertising, marketing or unrelated analytics. Google user data is not shared with third parties except where necessary to provide core app functionality, comply with legal obligations, prevent abuse or operate trusted service providers such as authentication, database, hosting or payment infrastructure.",
+    privacy_google_body_4:
+      "Google user data is stored securely and retained only as long as needed to provide the service, maintain the account, comply with legal obligations, resolve disputes or enforce our terms. Users may request deletion of their account and associated data through our account deletion page or by contacting us at fishingplanai@gmail.com.",
+    privacy_google_body_5:
+      "Fishing Plan AI's use and transfer of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.",
     privacy_section_2_title: "2. Spot Records",
     privacy_section_2_body:
       "Spots added by the user are private by default. If a user marks a spot as public, the spot name and location may become visible on community-facing views. Private spots are not shared with third parties and are used only to support the user's own planning flow.",
