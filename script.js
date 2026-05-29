@@ -30,8 +30,8 @@ const translations = {
     home_cta_secondary: "Store Links",
     home_cta_privacy: "Privacy Policy",
     home_point_1: "AI recommendations from weather and water conditions",
-    home_point_2: "Shared spots and catch reports on the map",
-    home_point_3: "Smart catch alerts for your region and saved spots",
+    home_point_2: "See shared fishing spots and catch reports on the map",
+    home_point_3: "Get notified when catches happen nearby or your spot conditions are perfect",
     features_title: "What Fishing Plan helps you do",
     features_intro:
       "The app is designed to reduce guesswork before you leave home and to help you keep better records after each trip.",
@@ -231,8 +231,8 @@ const translations = {
     home_cta_secondary: "Mağaza Linkleri",
     home_cta_privacy: "Gizlilik Politikası",
     home_point_1: "Hava ve su koşullarını okuyan yapay zeka önerileri",
-    home_point_2: "Haritada paylaşılan meralar ve av raporları",
-    home_point_3: "Bölgeniz ve meralarınız için akıllı av bildirimleri",
+    home_point_2: "Diğer balıkçıların paylaştığı meraları ve av raporlarını haritada görün",
+    home_point_3: "Bölgenizde av yapıldığında veya meranızda koşullar mükemmel olduğunda bildirim alın",
     features_title: "Fishing Plan size ne sağlar",
     features_intro:
       "Uygulama, evden çıkmadan önce tahmini azaltmak ve her seans sonrası daha iyi kayıtlar tutmanıza yardım etmek için tasarlandı.",
