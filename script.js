@@ -95,7 +95,7 @@ const translations = {
       "Every trip can feed your own fishing memory, helping future plans become sharper over time.",
     shot_12_title: "Stay ahead with reminders that matter",
     shot_12_body:
-      "Plan-day alerts, score refresh reminders and automatic opportunity notifications keep you ready before conditions turn.",
+      "Plan-day alerts, score refresh reminders, nearby catch notifications and automatic opportunity alerts keep you ready before conditions turn.",
     stores_title: "Store links",
     stores_intro:
       "App Store and Google Play links can stay here as soon as the listings are ready, while the website remains the public home for support and policy pages.",
@@ -296,7 +296,7 @@ const translations = {
       "Her seans kendi balık hafızanıza eklenir; böylece gelecek planlar zamanla daha keskin hale gelir.",
     shot_12_title: "Gerçekten önemli hatırlatmalarla önde kalın",
     shot_12_body:
-      "Plan günü uyarıları, skor yenileme hatırlatmaları ve otomatik fırsat bildirimleri koşullar dönmeden önce sizi hazır tutar.",
+      "Plan günü uyarıları, skor yenileme hatırlatmaları, bölgenizde yapılan av bildirimleri ve otomatik fırsat uyarıları koşullar dönmeden önce sizi hazır tutar.",
     stores_title: "Mağaza linkleri",
     stores_intro:
       "App Store ve Google Play bağlantıları hazır olduğunda burada yer alabilir; web sitesi ise destek ve politika sayfalarının herkese açık evi olarak kalır.",
