@@ -22,6 +22,7 @@ const translations = {
     contact_title: "Contact",
     coming_soon: "Coming Soon",
     store_play_cta: "Download on Google Play",
+    store_apple_cta: "Download on the App Store",
     store_terms_cta: "Terms of Use",
     home_eyebrow: "AI-powered fishing planning assistant",
     home_title: "Plan smarter fishing trips with 20 live metrics and AI-powered analysis.",
@@ -101,7 +102,7 @@ const translations = {
     stores_intro:
       "App Store and Google Play links can stay here as soon as the listings are ready, while the website remains the public home for support and policy pages.",
     store_1_title: "Apple App Store",
-    store_1_body: "Add your final App Store URL here after the app record is created.",
+    store_1_body: "Fishing Plan AI is now available on the App Store.",
     store_2_title: "Google Play",
     store_2_body: "Fishing Plan AI is now available on Google Play.",
     legal_title: "Privacy, terms and support",
@@ -224,6 +225,7 @@ const translations = {
     contact_title: "İletişim",
     coming_soon: "Yakında",
     store_play_cta: "Google Play'den indir",
+    store_apple_cta: "App Store'dan indir",
     store_terms_cta: "Kullanım Koşulları",
     home_eyebrow: "Yapay zeka destekli balık avı planlama asistanı",
     home_title: "20 canlı metrik ve yapay zeka destekli analizle balık avı planlarınızı daha akıllı kurun.",
@@ -304,7 +306,7 @@ const translations = {
       "App Store ve Google Play bağlantıları hazır olduğunda burada yer alabilir; web sitesi ise destek ve politika sayfalarının herkese açık evi olarak kalır.",
     store_1_title: "Apple App Store",
     store_1_body:
-      "Uygulama kaydı oluşturulduktan sonra son App Store bağlantınızı buraya ekleyin.",
+      "Fishing Plan AI artık App Store'da yayında.",
     store_2_title: "Google Play",
     store_2_body:
       "Fishing Plan AI artık Google Play'de yayında.",
